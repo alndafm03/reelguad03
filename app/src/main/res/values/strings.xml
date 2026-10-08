@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ReelGuard</string>
+    <string name="service_description">يكتشف سياق Reels / Shorts داخل Instagram وFacebook وYouTube لفرض سياسة المشاهدة التي اخترتها. لا يسجّل الشاشة ولا يرسل أي محتوى إلى خادم خارجي.</string>
+</resources>

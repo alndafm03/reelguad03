@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "profileId": "facebook-default",
+  "_note": "Facebook Reels: واجهة Facebook كثيرة العناصر بلا معرّفات، لذلك يعتمد الكشف مبدئيًا على contentDescription لعنصر بحجم الشاشة تقريبًا. أنماط غير مؤكدة؛ راجع التشخيص (وضع التسجيل) وعدّلها هنا عند الحاجة.",
+  "packages": [
+    "com.facebook.katana",
+    "com.facebook.lite"
+  ],
+  "reelStrongIds": [],
+  "clipsTabIds": [],
+  "storyIds": [],
+  "contentContainerIds": [],
+  "videoClassNames": [
+    "android.view.TextureView",
+    "android.view.SurfaceView"
+  ],
+  "reelDescPatterns": [
+    "^Reels?\\b",
+    "^ريل",
+    "\\bReels? (by|from)\\b"
+  ],
+  "authorIds": [],
+  "captionIds": [],
+  "extraIdentityIds": [],
+  "contentIdIds": [],
+  "scrollSourceIds": [],
+  "requireIds": false,
+  "scrollFallback": true,
+  "captionPrefix": 80,
+  "settleMs": 350,
+  "hintWindowMs": 2500,
+  "leaveMs": 1500,
+  "debounceMs": 200,
+  "packageWeight": 10,
+  "strongWeight": 35,
+  "tabWeight": 20,
+  "descWeight": 70,
+  "containerWeight": 15,
+  "videoWeight": 10,
+  "possibleScore": 30,
+  "probableScore": 55,
+  "confirmScore": 80,
+  "minScreenFraction": 0.6,
+  "maxNodes": 600,
+  "maxDepth": 40,
+  "minNodes": 5
+}

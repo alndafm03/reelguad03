@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- لا نحدد packageNames عمدًا: نحتاج حدث تغيّر النافذة عند مغادرة التطبيق المحميّ لإزالة الـOverlay.
+     الخدمة لا تقرأ شجرة المحتوى إلا عندما يكون أحد التطبيقات المختارة هو النشط.
+     لا نُعلن isAccessibilityTool (الوثيقة §67). -->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/service_description"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged|typeViewScrolled"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagReportViewIds|flagIncludeNotImportantViews"
+    android:canRetrieveWindowContent="true"
+    android:notificationTimeout="100"
+    android:settingsActivity="com.reelguard.ui.MainActivity" />

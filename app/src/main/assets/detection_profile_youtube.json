@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "profileId": "youtube-default",
+  "_note": "YouTube Shorts: المعرّفات ترشيحات غير مؤكدة (reel_recycler وreel_player_page_container). عايِر الكشف من التطبيق للتأكد.",
+  "packages": [
+    "com.google.android.youtube"
+  ],
+  "reelStrongIds": [
+    "reel_recycler",
+    "reel_player_page_container"
+  ],
+  "clipsTabIds": [],
+  "storyIds": [],
+  "contentContainerIds": [
+    "reel_recycler",
+    "reel_player_page_container"
+  ],
+  "videoClassNames": [
+    "android.view.TextureView",
+    "android.view.SurfaceView"
+  ],
+  "reelDescPatterns": [],
+  "authorIds": [],
+  "captionIds": [],
+  "extraIdentityIds": [],
+  "contentIdIds": [],
+  "scrollSourceIds": [
+    "reel_recycler"
+  ],
+  "requireIds": true,
+  "scrollFallback": true,
+  "captionPrefix": 80,
+  "settleMs": 350,
+  "hintWindowMs": 2500,
+  "leaveMs": 1500,
+  "debounceMs": 200,
+  "packageWeight": 10,
+  "strongWeight": 35,
+  "tabWeight": 20,
+  "descWeight": 35,
+  "containerWeight": 15,
+  "videoWeight": 10,
+  "possibleScore": 30,
+  "probableScore": 55,
+  "confirmScore": 70,
+  "minScreenFraction": 0.6,
+  "maxNodes": 600,
+  "maxDepth": 40,
+  "minNodes": 5
+}

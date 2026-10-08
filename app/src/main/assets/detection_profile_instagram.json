@@ -1,0 +1,68 @@
+{
+  "version": 3,
+  "profileId": "instagram-default",
+  "_note": "المعرّفات ترشيحات أولية غير مؤكدة؛ عايِر الكشف من التطبيق (الأرجح أن تتغيّر بين إصدارات Instagram). extraIdentityIds (عنصر الصوت) تُكتشف بالمعايرة.",
+  "packages": [
+    "com.instagram.android"
+  ],
+  "reelStrongIds": [
+    "clips_viewer_view_pager",
+    "clips_video_container",
+    "clips_swipe_refresh_container",
+    "clips_media_component",
+    "root_clips_layout"
+  ],
+  "clipsTabIds": [
+    "clips_tab"
+  ],
+  "storyIds": [
+    "reel_viewer_root",
+    "reel_viewer_texture_view",
+    "reel_viewer_progress_bar",
+    "reel_viewer_media_container"
+  ],
+  "contentContainerIds": [
+    "clips_viewer_view_pager",
+    "clips_video_container",
+    "clips_media_component"
+  ],
+  "videoClassNames": [
+    "android.view.TextureView",
+    "android.view.SurfaceView"
+  ],
+  "reelDescPatterns": [
+    "^Reel by ",
+    "^ريل من "
+  ],
+  "authorIds": [
+    "clips_author_username"
+  ],
+  "captionIds": [
+    "clips_caption_component"
+  ],
+  "extraIdentityIds": [],
+  "contentIdIds": [],
+  "scrollSourceIds": [
+    "clips_viewer_view_pager"
+  ],
+  "settleMs": 350,
+  "hintWindowMs": 2500,
+  "leaveMs": 1500,
+  "debounceMs": 200,
+  "packageWeight": 10,
+  "strongWeight": 35,
+  "tabWeight": 20,
+  "descWeight": 35,
+  "containerWeight": 15,
+  "videoWeight": 10,
+  "possibleScore": 30,
+  "probableScore": 60,
+  "confirmScore": 80,
+  "minScreenFraction": 0.6,
+  "maxNodes": 600,
+  "maxDepth": 40,
+  "minNodes": 5,
+  "requireIds": true,
+  "captionPrefix": 80,
+  "scrollFallback": false
+}
